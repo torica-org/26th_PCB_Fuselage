@@ -2811,10 +2811,6 @@
 		(uuid "f2971aed-1e5d-4d7a-97e5-afe782c58abf")
 	)
 	(no_connect
-		(at 144.78 127)
-		(uuid "f9842709-8d2c-448b-b2af-103013bff3c0")
-	)
-	(no_connect
 		(at 102.87 64.77)
 		(uuid "fec44c53-3c5d-4dd7-ba7a-2ff1936e37d6")
 	)
@@ -2897,6 +2893,16 @@
 			(type default)
 		)
 		(uuid "22258429-2bb5-439f-a5a4-335fd1331ae3")
+	)
+	(wire
+		(pts
+			(xy 138.43 127) (xy 144.78 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d47569-7997-4ebb-aca5-e90c5b5c5eba")
 	)
 	(wire
 		(pts
@@ -4402,6 +4408,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 138.43 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "569758da-d11f-4cbf-b204-7765b4f43d5a")
+		(property "Reference" "#PWR018"
+			(at 132.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61d4d14e-2402-47bf-bf3b-f02b265555a5")
+		)
+		(instances
+			(project "26th_PCB_PitchSender"
+				(path "/5013cac2-53c1-4b5b-9014-63fb93daa52f"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 222.25 78.74 0)
 		(unit 1)
@@ -4827,7 +4898,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "Vol"
 			(at 93.98 167.64 90)
 			(effects
 				(font
@@ -5028,7 +5099,7 @@
 				)
 			)
 		)
-		(property "Value" "vol"
+		(property "Value" "Amp"
 			(at 73.025 139.7 0)
 			(effects
 				(font
