@@ -5,6 +5,213 @@
 	(uuid "5013cac2-53c1-4b5b-9014-63fb93daa52f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x03_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2872,6 +3079,16 @@
 		)
 		(uuid "2880a5e3-2d4f-4248-9ad9-f4c30056b5cc")
 	)
+	(text "AE-LSM6DSV16X"
+		(exclude_from_sim no)
+		(at 192.024 23.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "44d17211-4ad9-4974-ad92-3ec6ac73aace")
+	)
 	(junction
 		(at 187.96 109.22)
 		(diameter 0)
@@ -2939,6 +3156,10 @@
 		(uuid "26933a7f-3893-434d-893f-280eb762f255")
 	)
 	(no_connect
+		(at 171.45 33.02)
+		(uuid "2823f57f-6a00-4115-abfe-db8de290bb53")
+	)
+	(no_connect
 		(at 102.87 41.91)
 		(uuid "29e62ca0-e493-499d-8103-ad72128d4ea6")
 	)
@@ -2947,12 +3168,24 @@
 		(uuid "3732ea35-fb06-4deb-be30-b7abfeb43dff")
 	)
 	(no_connect
+		(at 171.45 35.56)
+		(uuid "375295c5-707a-42d6-99c4-279e4d8abc1a")
+	)
+	(no_connect
 		(at 185.42 129.54)
 		(uuid "3a3b2f59-8c73-4aa0-883a-bc4773bf519e")
 	)
 	(no_connect
+		(at 170.18 45.72)
+		(uuid "3e157d8b-6a0b-4149-a38a-c3496dbe5436")
+	)
+	(no_connect
 		(at 146.05 64.77)
 		(uuid "4a09cbc6-9fce-4f9c-a06f-d1c586cbb7f5")
+	)
+	(no_connect
+		(at 208.28 48.26)
+		(uuid "4d04a6ba-e380-4e64-abfe-101467f26d88")
 	)
 	(no_connect
 		(at 185.42 132.08)
@@ -2999,12 +3232,24 @@
 		(uuid "adca7887-c3ea-4515-9ce0-7cb142e68b68")
 	)
 	(no_connect
+		(at 208.28 50.8)
+		(uuid "af32ac0c-76ad-43eb-a117-a753ea655104")
+	)
+	(no_connect
 		(at 185.42 134.62)
 		(uuid "bf410ea9-3683-421c-b9f2-81a16394661d")
 	)
 	(no_connect
+		(at 208.28 29.21)
+		(uuid "c06de3a1-ac15-4d6b-bc9c-a1212988fe5e")
+	)
+	(no_connect
 		(at 102.87 59.69)
 		(uuid "c6289f08-064e-45a4-8c22-f13244ccbdfe")
+	)
+	(no_connect
+		(at 171.45 30.48)
+		(uuid "d2cf2600-8a47-4c1a-ad1e-0e6398efe10a")
 	)
 	(no_connect
 		(at 185.42 104.14)
@@ -3029,6 +3274,10 @@
 	(no_connect
 		(at 144.78 121.92)
 		(uuid "f2971aed-1e5d-4d7a-97e5-afe782c58abf")
+	)
+	(no_connect
+		(at 208.28 45.72)
+		(uuid "fcf630d8-5703-4551-a44f-b0658dee39fd")
 	)
 	(no_connect
 		(at 102.87 64.77)
@@ -3186,6 +3435,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 34.29) (xy 208.28 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37279ba6-df8a-4a76-8d8a-c9b0ada55a96")
+	)
+	(wire
+		(pts
 			(xy 102.87 54.61) (xy 85.09 54.61)
 		)
 		(stroke
@@ -3323,6 +3582,16 @@
 			(type default)
 		)
 		(uuid "6c0a82a7-5ffe-44fa-adfb-72082704c187")
+	)
+	(wire
+		(pts
+			(xy 204.47 31.75) (xy 208.28 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf696de-2e6e-4da6-8325-726e4e10affd")
 	)
 	(wire
 		(pts
@@ -3526,6 +3795,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 50.8) (xy 170.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2ac8ae-4930-49f4-b4bc-529ffce21c4d")
+	)
+	(wire
+		(pts
 			(xy 102.87 44.45) (xy 73.66 44.45)
 		)
 		(stroke
@@ -3573,6 +3852,16 @@
 			(type default)
 		)
 		(uuid "d1f7eb99-8873-46b6-b987-6f748e7cbfa9")
+	)
+	(wire
+		(pts
+			(xy 163.83 48.26) (xy 170.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34b7c77-59a2-4e7c-8b6a-436e6e2cb871")
 	)
 	(wire
 		(pts
@@ -3844,6 +4133,16 @@
 		)
 		(uuid "9ab9cccb-ecc8-4e78-9f8f-79ff6f9d9d35")
 	)
+	(label "SDA"
+		(at 204.47 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a50237c7-3e87-4764-ad0b-5017ba066fdf")
+	)
 	(label "MISO"
 		(at 96.52 58.42 180)
 		(effects
@@ -3873,6 +4172,16 @@
 			(justify right bottom)
 		)
 		(uuid "c148018b-8ddb-4a8e-9175-543942904f96")
+	)
+	(label "SCL"
+		(at 204.47 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dfd08f8f-d1d3-4322-95e5-c8d778e73209")
 	)
 	(label "ChipSelect"
 		(at 194.31 121.92 0)
@@ -4029,6 +4338,79 @@
 			(project "26th_PCB_PitchSender"
 				(path "/5013cac2-53c1-4b5b-9014-63fb93daa52f"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 175.26 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22355c41-05e3-4948-bc08-70647991204f")
+		(property "Reference" "J8"
+			(at 176.53 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 176.53 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 175.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 175.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f512703-efdc-4940-b403-3a65798d9f07")
+		)
+		(pin "3"
+			(uuid "a1f08350-2468-4537-93b0-780a8f19eed5")
+		)
+		(pin "2"
+			(uuid "e1abf1ea-2be6-47f2-8f83-258604f27b02")
+		)
+		(instances
+			(project "26th_PCB_PitchSender"
+				(path "/5013cac2-53c1-4b5b-9014-63fb93daa52f"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4259,6 +4641,76 @@
 			(project "26th_PCB_PitchSender"
 				(path "/5013cac2-53c1-4b5b-9014-63fb93daa52f"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 203.2 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "342a55e1-ef83-4771-a82e-33054498a758")
+		(property "Reference" "J10"
+			(at 204.47 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 204.724 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "475cc563-682f-4f45-adf7-adc8b85b5b90")
+		)
+		(pin "3"
+			(uuid "ad97e965-11be-4446-9613-f6d881f8af87")
+		)
+		(pin "2"
+			(uuid "9c5a4902-8585-4c65-86e1-3834163e4d9c")
+		)
+		(instances
+			(project "26th_PCB_PitchSender"
+				(path "/5013cac2-53c1-4b5b-9014-63fb93daa52f"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4533,6 +4985,141 @@
 			(project "26th_PCB_PitchSender"
 				(path "/5013cac2-53c1-4b5b-9014-63fb93daa52f"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 213.36 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4735ea81-e129-4a83-b8db-24b834c41e3f")
+		(property "Reference" "J9"
+			(at 209.55 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 209.042 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 213.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 213.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25373e1d-88de-40c0-87bd-5b96aa896315")
+		)
+		(pin "3"
+			(uuid "751a6e3e-8720-40d8-8d1f-a5f49b192f97")
+		)
+		(pin "2"
+			(uuid "ff5402fb-5044-4082-bb14-6d8eba34928c")
+		)
+		(instances
+			(project "26th_PCB_PitchSender"
+				(path "/5013cac2-53c1-4b5b-9014-63fb93daa52f"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51149582-a728-44bc-bec6-3712ad59db6d")
+		(property "Reference" "#PWR021"
+			(at 157.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.242 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb8eb5a2-fcb0-40bf-a675-76a323024021")
+		)
+		(instances
+			(project "26th_PCB_PitchSender"
+				(path "/5013cac2-53c1-4b5b-9014-63fb93daa52f"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5026,6 +5613,79 @@
 			(project "26th_PCB_PitchSender"
 				(path "/5013cac2-53c1-4b5b-9014-63fb93daa52f"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 176.53 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56cd1da4-d0c5-4b27-b4b6-b263f65e6f05")
+		(property "Reference" "J7"
+			(at 177.8 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 177.8 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a442484-3261-461f-a1de-a2ca78358286")
+		)
+		(pin "3"
+			(uuid "b6b14985-6e03-4217-9eb7-694550f29d97")
+		)
+		(pin "2"
+			(uuid "7bc81d95-7f19-48eb-81b2-a5903790d0d4")
+		)
+		(instances
+			(project "26th_PCB_PitchSender"
+				(path "/5013cac2-53c1-4b5b-9014-63fb93daa52f"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5851,6 +6511,71 @@
 			(project "26th_PCB_PitchSender"
 				(path "/5013cac2-53c1-4b5b-9014-63fb93daa52f"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 166.37 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adea15f2-e98f-4cdc-be1c-8dba6dc420da")
+		(property "Reference" "#PWR020"
+			(at 170.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 165.354 52.832 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3e7a08c-81b0-472c-9c89-f011b557d992")
+		)
+		(instances
+			(project "26th_PCB_PitchSender"
+				(path "/5013cac2-53c1-4b5b-9014-63fb93daa52f"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
